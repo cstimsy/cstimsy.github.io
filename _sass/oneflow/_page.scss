@@ -79,7 +79,7 @@ body {
 
 .page__content {
 
-text-align: center;
+text-align: left;
 
   h2 {
     padding-bottom: 0.5em;
@@ -172,7 +172,6 @@ text-align: center;
 .page__hero {
 
   position: relative;
-  margin-bottom: 2em;
   @include clearfix;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
@@ -181,7 +180,6 @@ text-align: center;
 
   &--overlay {
     position: relative;
-    margin-bottom: 2em;
     padding: 3em 0;
     @include clearfix;
     background-size: cover;

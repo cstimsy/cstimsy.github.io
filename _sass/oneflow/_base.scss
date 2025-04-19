@@ -164,7 +164,6 @@ pre {
 
 hr {
   display: block;
-  margin: 1em 0;
   border: 0;
   border-top: 1px solid $border-color;
 }
@@ -352,5 +351,13 @@ Popup / cookie banner
     border-radius: 5px;
     z-index: 999;
     font-size: 70%;
-    text-align: center;
+    text-align: left;
+}
+
+#cookie-banner-header {
+  text-align: center;
+}
+
+#cookie-banner-consent {
+  text-align: center;
 }
